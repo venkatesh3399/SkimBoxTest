@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .bg-container {
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .head-main {
+            color: #f02e82;
+            text-align: center;
+        }
+
+        .pair-box {
+            width: 60vw;
+            display: flex;
+            justify-content: space-between;
+            background-color: transparent;
+            border: 0.5px solid gray;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+
+        #input-selected {
+            background-color: #f02e82;
+        }
+
+        .content-order {
+            display: flex;
+        }
+
+        .pair-box-2 {
+            border: 1px solid #f02e82;
+        }
+        .most-popular {
+            color: #f02e82;
+        }
+        .order-shipping {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 60%;
+        }
+        .total-amount {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .free-shipping {
+            color: #f02e82;
+        }
+        button {
+             background-color: #f02e82;   
+             width: 80%;
+             color: #ffffff;
+             font-weight: 500;
+             text-align: center;
+             border: none;
+             padding: 12px;
+        }
+        .copyright {
+            text-align: right;
+        }
+        .input-optoins {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-container">
+        <div>
+        <p class="head-main">Bundle & Save</p>
+        <div class="pair-box">
+            <div class="content-order">
+                <input type="radio" />
+                <div>
+                    <p>1 Pair</p>
+                    <p>DKK 195.00</p>
+                </div>
+            </div>
+            <p>50% OFF</p>
+        </div>
+        <div class="pair-box pair-box-2">
+            <div class="content-order">
+                <input id="input-selected" type = "radio" selected />
+                <div>
+                    <p>2 Pair</p>
+                    <p>DKK 345.00</p>
+                    <p>#1</p>
+                <select>
+                    <option>S</option>
+                </select>
+                <select>
+                    <option>Colour</option>
+                </select>
+                <p>#2</p>
+                <select>
+                    <option>S</option>
+                </select>
+                <select>
+                    <option>Colour</option>
+                </select>
+                </div>
+            </div>
+            <div>
+            <p class = "most-popular">Most Popular</p>                
+            <p>40% OFF</p>
+            </div>
+            <!-- <div class = "input-optoins">
+                
+            </div> -->
+        </div>
+        <div class="pair-box ">
+            <div class="content-order">
+                <input type="radio" />
+                <div>
+                    <p>3 Pair</p>
+                    <p>DKK 528.00</p>
+                </div>
+            </div>
+            <p>60% OFF</p>
+        </div>
+        </div>
+        <div class = "order-shipping">
+        <div class="total-amount">
+            <p class="free-shipping">Free 2 Day Shipping</p>
+            <p>Total : DKK 360.00</p>
+        </div>
+        <button>+ Add to Cart</button>
+        <div>
+        <p class="copyright">&copy; Powered by Pumper</p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
